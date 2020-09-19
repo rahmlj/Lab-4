@@ -14,20 +14,16 @@ class Main {
     System.out.println("The Random number is: ");
     
     for (int count = randomNum; count >= 0; count --)
-      if (randomNum < 25)
-      System.out.println(" " + count);
-      System.out.println("Ahoy mateys!");
-      
-    for (int count = randomNum; count >= 0; count--)
-      if (randomNum > 25)
-      if (randomNum < 42)
     System.out.println(" " + count);
-    System.out.println("Cannonball!");
+      if (randomNum < 25)
+        System.out.println("Ahoy mateys!");
+      else if (randomNum >= 25 && randomNum <= 42)
+        System.out.println("Cannonball!");
+      else if (randomNum > 42)
+        System.out.println("Blast Off!");
 
-    for (int count = randomNum; count >= 0; count --)
-      if (randomNum > 42)
-      System.out.println(" " + count);
-      System.out.println("Blast off!");
+      
+      
 
   }
 }
