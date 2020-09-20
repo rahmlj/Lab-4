@@ -11,7 +11,7 @@ class Main {
     
     Random r =  new Random();
     int randomNum = r.nextInt(50) + 1;
-    System.out.println("The Random number is: ");
+    System.out.println("The Random number is: " + randomNum);
     
     for (int count = randomNum; count >= 0; count --)
     System.out.println(" " + count);
